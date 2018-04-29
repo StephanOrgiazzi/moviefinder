@@ -1,0 +1,35 @@
+.Header {
+    margin-top: .5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    background-color: #253755;
+    border: none;
+    width: 90%;
+    margin: 1rem 0;
+    padding: .7rem 1rem;
+    border-radius: 15px;
+}
+
+input::placeholder {
+    background: url(../../assets/img/searchicon.svg) right no-repeat;
+    background-size: contain;
+    color: #586E94;
+}
+
+@media (min-width: 768px) {
+    .Header {
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+
+    input {
+        width: 30%;
+        margin: 0;
+    }
+    
+}
