@@ -8,6 +8,29 @@ h1 {
     margin-bottom: 1rem;
 }
 
+.genres {
+    margin: 1rem 2rem;
+    width: 120px;
+}
+
+div[class="Dropdown-control "] {
+    background: transparent;
+    border: 2px solid #586E94;
+    padding: 10px 15px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+div[class="Dropdown-placeholder"] {
+    font-size: 14px;
+    color: #586E94;
+}
+
+/* span[class="Dropdown-arrow"] {
+    border: none;
+    background: url(../../assets/img/dropdownarrow.svg) center center no-repeat;
+} */
+
 .movieList {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
