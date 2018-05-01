@@ -4,27 +4,63 @@
     font-weight: bold;
 }
 
+.BestMovies * {
+    outline: none;
+}
+
 h1 {
     font-size: 1.1rem;
+    margin-bottom: -1.5rem;
+}
+
+.bestMovie {
+    padding: 3rem;
 }
 
 .bestMovie img {
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .bestTitle {
+    padding-top: .6rem;
     font-size: .9rem;
+    max-width: 9rem;
+    cursor: pointer;
 }
 
 .bestYear {
     font-size: .9rem;
     color: #586E94;
+    cursor: pointer;
 }
 
+@media (max-width: 700px) {
 
-@media (max-width: 768px) {
+    h1 {
+        padding-left: 1.5rem;
+    }
+
+    .BestMovies {
+        padding: 0;
+    }
+
+    /* .bestMovie {
+        width: 60px;
+    } */
+
     .bestMovie img {
         width: 92px;
+        max-width: 6rem;
+    }
+
+    .bestTitle {
+        font-size: .75rem;
+        max-width: 7rem;
+    }
+
+    div[data-index="-1"] {
+        visibility: hidden;
     }
     
 }

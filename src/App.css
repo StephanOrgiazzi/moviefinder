@@ -8,7 +8,7 @@ html {
   display: flex;
   justify-content: center;
   width: 100vw;
-  height: 50vh;
+  height: 70vh;
   background:
   linear-gradient(to bottom, rgba(13, 29, 56, .85), rgba(13, 29, 56, .8)),
   url(http://meganfoxstar.ru/_ph/87/784919443.jpg) center center no-repeat;
@@ -18,5 +18,17 @@ html {
 
 .App-wrapper {
   width: 95%;
-  max-width: 1200px;
+  max-width: 1024px;
+}
+
+@media (max-width: 700px) {
+  .App-wrapper {
+    width: 100%;
+    max-width: 1024px;
+  }
+
+  .App {
+    /* background-size: contain; */
+    height: 36vh;
+  }
 }
