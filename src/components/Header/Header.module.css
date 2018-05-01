@@ -6,6 +6,11 @@
     align-items: flex-start;
 }
 
+.Header img {
+    width: 220px;
+    height: 36px;
+}
+
 input {
     background-color: #253755;
     border: none;
