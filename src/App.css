@@ -2,6 +2,7 @@
 
 html {
   background: #0D1D38;
+  overflow-x: hidden;
 }
 
 .App {
@@ -14,11 +15,16 @@ html {
   url(http://meganfoxstar.ru/_ph/87/784919443.jpg) center center no-repeat;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
 }
 
 .App-wrapper {
   width: 95%;
   max-width: 1024px;
+}
+
+h1 {
+  font-size: 26px;
 }
 
 @media (max-width: 700px) {

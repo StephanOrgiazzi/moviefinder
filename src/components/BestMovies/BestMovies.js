@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './BestMovies.module.css';
 import axios from 'axios';
-import Slider from "react-slick";
+import Slider from 'react-slick';
 
 class BestMovies extends Component {
 

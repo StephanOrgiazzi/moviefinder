@@ -1,0 +1,75 @@
+.AllMovies {
+    padding: 3rem 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.movieList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 1rem;
+}
+
+.allMovie img {
+    width: 138px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.allTitle {
+    padding-top: .6rem;
+    font-size: 14px;
+    max-width: 9rem;
+    cursor: pointer;
+}
+
+.allYear {
+    font-size: 14px;
+    color: #586E94;
+    cursor: pointer;
+}
+
+.AllMovies button {
+    border: 2px solid #253755;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 2rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.nextPage {
+    background: url(../../assets/img/paginationnextarrow.svg) center center no-repeat;
+}
+
+.prevPage {
+    background: url(../../assets/img/paginationpreviousarrow.svg) center center no-repeat;
+}
+
+@media (max-width: 860px) {
+    .movieList {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .movieList {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .movieList {
+        grid-template-columns: 1fr 1fr;
+    }
+}

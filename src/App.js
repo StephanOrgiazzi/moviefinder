@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import BestMovies from './components/BestMovies/BestMovies';
+import AllMovies from './components/AllMovies/AllMovies';
 
 class App extends Component {
     render() {
@@ -9,7 +10,8 @@ class App extends Component {
             <div className="App">
                 <div className="App-wrapper">
                     <Header />
-                    <BestMovies />                    
+                    <BestMovies />                
+                    <AllMovies />                
                 </div>
             </div>
         );
